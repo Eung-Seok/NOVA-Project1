@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            width: 90%;
+            height: 100px;
+            margin: 0 auto;
+            border: 1px solid black;
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+        }
+
+        .main {
+            content: "";
+            display: flex;
+            width: 90%;
+            height: 600px;
+            margin: 0 auto;
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+
+        .footer {
+            width: 90%;
+            height: 100px;
+            margin: 0 auto;
+            border: 1px solid black;
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+    <link rel="stylesheet" href="./complaintMakeForm.css">
+</head>
+
+<body>
+
+    <div class="header">HEADER</div>
+
+    <div class="main">
+        <div class="main-left">
+            <div class="main-left-name">민원페이지</div>
+            <div class="main-left-menu">
+                <div class="main-left-menu-item">메뉴1</div>
+                <div class="main-left-menu-item">메뉴2</div>
+                <div class="main-left-menu-item">메뉴3</div>
+                <div class="main-left-menu-item">메뉴4</div>
+                <div class="main-left-menu-item">메뉴5</div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="main-right-head">
+                <h2>게시판 글쓰기</h2>
+            </div>
+            <form class="form">
+                <div class="form-head">
+                    <div class="form-head-top">
+                        <div class="form-category">
+                            <select>
+                                <option selected disabled>카테고리 선택</option>
+                                <option>문의</option>
+                                <option>민원</option>
+                                <option>피드백</option>
+                            </select>
+                        </div>
+                        <div class="form-place">
+                            <select>
+                                <option selected disabled>장소</option>
+                                <option>시청</option>
+                                <option>종합운동장</option>
+                                <option>기타</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-title">
+                        <input type="text" placeholder="제목을 입력해 주세요">
+                    </div>
+                </div>
+                <div class="form-body">
+                    <textarea placeholder="내용을 입력하세요"></textarea>
+                </div>
+                <div class="form-footer">
+                    <button>등록</button>
+                    <button>저장</button>
+                    <button>취소</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">FOOTER</div>
+
+</body>
+
+</html>
