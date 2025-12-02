@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            width: 90%;
+            height: 100px;
+            margin: 0 auto;
+            border: 1px solid black;
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+        }
+
+        .main {
+            content: "";
+            display: flex;
+            width: 90%;
+            height: 600px;
+            margin: 0 auto;
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+
+        .footer {
+            width: 90%;
+            height: 100px;
+            margin: 0 auto;
+            border: 1px solid black;
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+    <link rel="stylesheet" href="./complaintMain.css">
+</head>
+
+<body>
+
+    <div class="header">HEADER</div>
+
+    <div class="main">
+        <div class="main-left">
+            <div class="main-left-name">민원페이지</div>
+            <div class="main-left-menu">
+                <div class="main-left-menu-item">메뉴1</div>
+                <div class="main-left-menu-item">메뉴2</div>
+                <div class="main-left-menu-item">메뉴3</div>
+                <div class="main-left-menu-item">메뉴4</div>
+                <div class="main-left-menu-item">메뉴5</div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="main-right-board">
+                <div class="main-right-name">
+                    <h1>민원게시판</h1>
+                </div>
+                <div class="main-right-info">게시판 설명들</div>
+                <div class="main-right-index">
+                    <div class="main-right-index-item">
+                        <div class="main-right-index-item-number">번호</div>
+                        <div class="main-right-index-item-title">제목</div>
+                        <div class="main-right-index-item-writer">작성자</div>
+                        <div class="main-right-index-item-date">등록일</div>
+                        <div class="main-right-index-item-views">조회수</div>
+                        <div class="main-right-index-item-status">상태</div>
+                    </div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                    <div class="main-right-index-item"></div>
+                </div>
+            </div>
+            <div class="main-right-middle">
+                <div class="main-right-middle-pageNum">
+                    <div class="main-right-middle-pageNum-items">첫</div>
+                    <div class="main-right-middle-pageNum-items">왼</div>
+                    <div class="main-right-middle-pageNum-items">1</div>
+                    <div class="main-right-middle-pageNum-items">2</div>
+                    <div class="main-right-middle-pageNum-items">3</div>
+                    <div class="main-right-middle-pageNum-items">4</div>
+                    <div class="main-right-middle-pageNum-items">5</div>
+                    <div class="main-right-middle-pageNum-items">6</div>
+                    <div class="main-right-middle-pageNum-items">7</div>
+                    <div class="main-right-middle-pageNum-items">8</div>
+                    <div class="main-right-middle-pageNum-items">9</div>
+                    <div class="main-right-middle-pageNum-items">10</div>
+                    <div class="main-right-middle-pageNum-items">오</div>
+                    <div class="main-right-middle-pageNum-items">끝</div>
+                </div>
+                <div class="main-right-middle-search">
+                    <div class="main-right-middle-search-main">
+                        <select>
+                            <option>전체</option>
+                            <option>제목</option>
+                        </select>
+                        <input type='text' class="search">
+                        <button>검색</button>
+                        <button class="btn_write">글쓰기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">FOOTER</div>
+
+</body>
+
+</html>

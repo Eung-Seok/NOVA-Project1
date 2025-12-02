@@ -1,0 +1,162 @@
+.main-left {
+    content: "";
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.main-left-name {
+    width: 80%;
+    height: 10%;
+    border: 1px solid black;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.main-left-menu {
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.main-left-menu-item {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.main-right {
+    content: "";
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-right-board {
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+.main-right-name {
+    width: 100%;
+    height: 10%;
+    align-content: center;
+    border: 1px solid black;
+}
+
+.main-right-info {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+.main-right-index {
+    content: "";
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+}
+
+.main-right-index-item {
+    display: inline-flex;
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.main-right-index-item-number {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-right-index-item-title {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-right-index-item-writer {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-right-index-item-date {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-right-index-item-views {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-right-index-item-status {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.main-right-middle {
+    width: 100%;
+    height: 20%;
+    align-content: center;
+}
+
+.main-right-middle-pageNum {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-right-middle-pageNum-items {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.main-right-middle-search {
+    width: 100%;
+    height: 50%;
+    align-content: center;
+    border: 1px solid black;
+}
+
+.search {
+    width: 40%;
+}
+
+.main-right-middle-search-main {
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.btn_write {
+    float: right;
+}
